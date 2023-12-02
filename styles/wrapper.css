@@ -1,0 +1,43 @@
+.wrapper {
+    --maxWrapperWidth: 0;   
+    --maxWrapperHeight: 0;    
+    --light-gradient: linear-gradient(91.08deg,#feb484 1.97%,#a686f2 27.88%,#592ac8 65.98%);
+    --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    --color4: linear-gradient(171deg, #26eff2 12%, #994cc2 78%);
+
+    background: url('./jsx.jpg');
+    filter: brightness(80%);
+    background-position: center center;
+    height: 100vh;
+    /* width: 100dvw; */
+    width: var(--maxWrapperWidth);
+    font-size: 5ch;
+    text-align: center;
+    color: #fff;
+    display: grid;
+    place-items: center;
+
+}
+.text {
+    user-select: none;
+    backdrop-filter: blur(24px);
+    margin: 1.2rem;
+    background: var(--light-gradient);
+    background-color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.wrapper__heading {
+    font-size: 4rem;
+    width: max-content;
+    padding: 0.41rem;
+    border-radius: 20px;
+}
+.wrapper__subheading {
+    width: max-content;
+    font-size: 2.2rem;
+    border-radius: 10px;
+    padding: 0.51rem;
+}

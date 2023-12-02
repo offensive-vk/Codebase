@@ -1,8 +1,12 @@
+import './styles/index.scss';
+import './assets/index.js'
+import './styles/index.css'
+import './styles/wrapper.css';
 
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-import './index.scss';
-import './index.js'
+import { loadWrapper } from './assets/index.js';
+import { loadSectionFirst } from './assets/index.js';
 
-document.querySelector('#root').innerHTML = `<h1> Vite </h1>`;
+( async() => {
+    await loadWrapper('Codebase.dev ', 'Helping you with Interviews.');
+    await loadSectionFirst();
+})();
