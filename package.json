@@ -2,7 +2,9 @@
   "name": "codebase",
   "private": true,
   "version": "1.1.1",
-  "author": {"name": "Vedansh Khandelwal"},
+  "author": {
+    "name": "Vedansh Khandelwal"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +12,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "eslint": "^8.55.0",
     "sass": "^1.69.5",
     "vite": "^5.0.4"
   }
