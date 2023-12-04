@@ -29,6 +29,20 @@ export async function loadWrapper(head, subhead) {
 export async function loadSectionFirst(){
     const section = document.createElement('div');
     section.className = 'section __first';
-    section.innerHTML = `This is first section .`
-    // document.querySelector('#root').append(section);
+
+    const main = document.createElement('div');
+    main.className = 'first__grid';
+    for(let i = 0; i < 5; i++) {
+        main.innerHTML += `<div class='grid-item item-${i}'>item</div>`
+    }
+    section.append(main);
+
+    document.querySelector('#root').append(section);
+}
+
+export async function loadSectionSecond(){
+    const section = document.createElement('div');
+    section.className = 'section __second';
+    section.innerHTML = `This is second section .`
+    document.querySelector('#root').append(section);
 }

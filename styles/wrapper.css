@@ -2,10 +2,10 @@
     --maxWrapperWidth: 0;   
     --maxWrapperHeight: 0;    
     --light-gradient: linear-gradient(91.08deg,#feb484 1.97%,#a686f2 27.88%,#592ac8 65.98%);
-    --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
-    --color4: linear-gradient(171deg, #26eff2 12%, #994cc2 78%);
+    --color2: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    --color3: linear-gradient(171deg, #26eff2 12%, #994cc2 78%);
 
-    background: url('./jsx.jpg');
+    background: url('../public/jsx.jpg');
     filter: brightness(80%);
     background-position: center center;
     height: 100vh;
@@ -16,6 +16,8 @@
     color: #fff;
     display: grid;
     place-items: center;
+    box-shadow: 0 2rem 1.5rem rgba(0,0,0,0.5);
+    margin-bottom: 1.1rem;
 
 }
 .text {
