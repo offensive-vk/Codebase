@@ -10,3 +10,4 @@ import { loadSectionFirst } from './assets/index.js';
     await loadWrapper('Codebase.dev ', 'Helping you with Programming.');
     await loadSectionFirst();
 })();
+
