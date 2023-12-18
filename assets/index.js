@@ -33,7 +33,7 @@ export async function loadSectionFirst(){
     const main = document.createElement('div');
     main.className = 'first__grid';
     for(let i = 0; i < 5; i++) {
-        main.innerHTML += `<div class='grid-item item-${i}'>item</div>`
+        main.innerHTML += `<div class='grid-item item-${i}'></div>`
     }
     section.append(main);
 

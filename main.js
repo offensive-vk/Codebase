@@ -7,7 +7,7 @@ import { loadSectionSecond, loadWrapper } from './assets/index.js';
 import { loadSectionFirst } from './assets/index.js';
 
 ( async() => {
-    await loadWrapper('Codebase.dev ', 'Helping you with Interviews.');
+    await loadWrapper('Codebase.dev ', 'Helping you with Programming.');
     await loadSectionFirst();
     // await loadSectionSecond();
 })();
