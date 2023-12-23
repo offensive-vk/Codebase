@@ -2,7 +2,6 @@
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import {showMenu} from './index.js'
 
 import './index.scss';
 import './index.js'
@@ -23,7 +22,6 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       You know what is this all. Right?
     </p>
-    ${showMenu()}
   </div>
 `
 
