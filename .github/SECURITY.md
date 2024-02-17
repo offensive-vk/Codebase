@@ -1,2 +1,1 @@
-# Please Follow Common Security Guidelines and Rules.
-- Thank you.
+## Please Follow Common Security Guidelines and Rules.
